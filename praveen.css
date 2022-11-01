@@ -1,0 +1,58 @@
+body{
+  margin:0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
+  background-size: cover;
+  overflow: hidden;
+}
+h2{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 19px;
+  text-align: center;
+  color:white;
+}
+.clock{
+  display: flex;
+
+}
+.clock div{
+  margin:7px;
+  position: relative;
+}
+.clock span{
+  width: 100px;
+  height: 80px;
+  background: skyblue;
+  opacity: 9px;
+  color:red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.clock .text{
+  font-size: 20px;
+  height:20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background:darkblue;
+  color:white;
+
+}
+.clock #ampm{
+  bottom:0;
+  position: absolute;
+  width:60px;
+  height: 30px;
+  font-size: 20px;
+  background: green;
+  color: white;
+}
+.clock #minute{
+  margin-top:-9;
+}
